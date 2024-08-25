@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0
+}
+.billing-container {
+    margin:15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding:10px;
+}
+.Title{
+    text-align: center;
+    background-color: rgb(111, 89, 133);
+    color:white;
+    padding:15px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
